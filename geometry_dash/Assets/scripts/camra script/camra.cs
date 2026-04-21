@@ -13,6 +13,7 @@ public class camra : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = playerTransform.position + new Vector3(0,0,-5);
+        //transform.position = playerTransform.position + new Vector3(0,0,-5);
+        transform.position = new Vector3(playerTransform.position.x, transform.position.y, transform.position.z);
     }
 }
